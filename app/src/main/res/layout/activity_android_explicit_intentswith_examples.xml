@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arjunpatidar.intentexampleinandroid.AndroidExplicitIntentswithExamples">
+
+    <TextView
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/firstNum"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/firstNum"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="144dp"
+        android:text="First Number" />
+
+    <EditText
+        android:id="@+id/firstNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addBtn"
+        android:layout_alignLeft="@+id/secondNum"
+        android:layout_alignStart="@+id/secondNum"
+        android:layout_marginBottom="26dp"
+        android:ems="10"></EditText>
+
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/firstNum"
+        android:layout_alignEnd="@+id/fstTxt"
+        android:layout_alignRight="@+id/fstTxt"
+        android:layout_marginBottom="19dp"
+        android:text="Second Number" />
+
+    <EditText
+        android:id="@+id/secondNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fstTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/secTxt"
+        android:layout_alignRight="@+id/secTxt"
+        android:layout_below="@+id/fstTxt"
+        android:layout_marginTop="99dp"
+        android:text="Add" />
+
+</RelativeLayout>
