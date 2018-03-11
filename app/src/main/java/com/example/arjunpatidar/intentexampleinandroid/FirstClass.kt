@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 
 /**
- * Created by arjunpatidar on 11/03/18.
+ * Created by arjunpatidar on 11/03/18
  */
 class FirstClassClass : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
